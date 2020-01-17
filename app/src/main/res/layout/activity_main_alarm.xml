@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity_alarm">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Your Alarm"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_gravity="center"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="startAlarmManager"
+            android:text="Start"
+            android:textColor="#FF800080"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonStop"
+            android:layout_gravity="center"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="stopAlarmManager"
+            android:text="Stop"
+            android:textColor="#FF800080"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

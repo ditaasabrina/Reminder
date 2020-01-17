@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".jadwal.TambahMatakuliahActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Matakuliah"
+        android:id="@+id/list_tambah_matakuliah"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dosen Pengajar"
+        android:id="@+id/list_tambah_dosen_pengajar"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah SKS"
+        android:id="@+id/list_tambah_jmlsks"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMBAH DATA MATAKULIAH"
+        android:textColor="#fff"
+        android:backgroundTint="#FF800080"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/matakuliah_tambah"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAPUS DATA MATAKULIAH"
+        android:textColor="#fff"
+        android:backgroundTint="#FF800080"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:id="@+id/matakuliah_hapus"/>
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".jadwal.TambahJadwalActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hari"
+        android:id="@+id/jadwal_tambah_hari"
+        android:textSize="20sp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mata Kuliah"
+        android:id="@+id/jadwal_tambah_makul"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jam"
+        android:id="@+id/jadwal_tambah_jam"
+        android:textSize="20sp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ruangan"
+        android:id="@+id/jadwal_tambah_ruangan"
+        android:textSize="20sp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dosen"
+        android:id="@+id/jadwal_tambah_dosen"
+        android:textSize="20sp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMBAH JADWAL"
+        android:textColor="#fff"
+        android:backgroundTint="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/jadwal_tambah"
+        tools:ignore="SpUsage,UnusedAttribute" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus Jadwal"
+        android:textColor="#fff"
+        android:backgroundTint="@color/colorAccent"
+        android:visibility="gone"
+        android:id="@+id/jadwal_hapus"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+</LinearLayout>

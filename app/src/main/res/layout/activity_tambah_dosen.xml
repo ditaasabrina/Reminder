@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".jadwal.TambahDosenActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Dosen"
+        android:id="@+id/list_tambah_dosen"
+        android:textSize="20sp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIK"
+        android:id="@+id/list_nik_dosen"
+        android:textSize="20sp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Matakuliah Yang Diampu"
+        android:id="@+id/list_tambah_matkul_dosen"
+        android:textSize="20sp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ruang Dosen"
+        android:id="@+id/list_tambah_ruangan_dosen"
+        android:textSize="20sp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMBAH DATA DOSEN"
+        android:textColor="#fff"
+        android:backgroundTint="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/dosen_tambah"
+        tools:ignore="HardcodedText,SpUsage,UnusedAttribute" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAPUS DATA DOSEN"
+        android:textColor="#fff"
+        android:backgroundTint="@color/colorAccent"
+        android:visibility="gone"
+        android:id="@+id/dosen_hapus"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+
+</LinearLayout>

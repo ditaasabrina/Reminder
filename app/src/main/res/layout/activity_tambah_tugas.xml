@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".jadwal.TambahTugasActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Matakuliah"
+        android:id="@+id/list_matakuliah"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Tugas"
+        android:id="@+id/list_jenistugas"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Keterangan"
+        android:id="@+id/list_keterangan"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jam"
+        android:id="@+id/list_jamkumpul"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Pengumpulan"
+        android:id="@+id/list_tglkumpul"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bt_datepicker"
+        android:text="Pilih tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMBAH TUGAS"
+        android:textColor="#fff"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/tugas_tambah"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAPUS TUGAS"
+        android:textColor="#fff"
+        android:backgroundTint="@color/colorAccent"
+        android:visibility="gone"
+        android:id="@+id/tugas_hapus"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+</LinearLayout>
